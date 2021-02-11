@@ -5,7 +5,6 @@ public class Coche {
 	private String matricula;
 	private String modelo;
 	private String marca;
-	private Motor motor;
 	
 	public Coche (int vId, String vMat, String vMod, String vMarca) {
 		id = vId;
@@ -45,15 +44,6 @@ public class Coche {
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
-
-	public Motor getMotor() {
-		return motor;
-	}
-
-	public void setMotor(Motor motor) {
-		this.motor = motor;
-	}
-	
 	
 	
 }
