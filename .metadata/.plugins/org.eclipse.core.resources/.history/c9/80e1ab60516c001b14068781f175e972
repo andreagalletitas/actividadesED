@@ -5,14 +5,12 @@ public class Coche {
 	private String matricula;
 	private String modelo;
 	private String marca;
-	private double km;
 	
-	public Coche (int vId, String vMat, String vMod, String vMarca, double vKm) {
+	public Coche (int vId, String vMat, String vMod, String vMarca) {
 		id = vId;
 		matricula = vMat;
 		modelo = vMod;
 		marca = vMarca;
-		km = vKm;
 	}
 
 	public int getId() {
@@ -45,14 +43,6 @@ public class Coche {
 
 	public void setMarca(String marca) {
 		this.marca = marca;
-	}
-
-	public double getKm() {
-		return km;
-	}
-
-	public void setKm(double km) {
-		this.km = km;
 	}
 	
 	
